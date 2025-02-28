@@ -1,0 +1,149 @@
+.spreadsheet {
+  width: 100%;
+  height: 90vh;
+  overflow: auto;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Custom Thin Scrollbar */
+.spreadsheet::-webkit-scrollbar {
+  width: 10px; /* Thin vertical scrollbar */
+  height: 10px; /* Thin horizontal scrollbar */
+  margin-bottom: 10vh; /* Adds margin at the bottom */
+
+}
+
+.spreadsheet::-webkit-scrollbar-thumb {
+  background-color: #dadce0;
+  border-radius: 15px;
+  margin-bottom: 10vh; /* Adds margin at the bottom */
+
+}
+
+.spreadsheet::-webkit-scrollbar-thumb:hover {
+  background-color: #e7dbdb;
+}
+
+.spreadsheet::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: auto; /* Auto to prevent fixed height issues */
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  min-width: 80px;
+  height: 25px;
+  text-align: center;
+  position: relative;
+}
+
+th {
+  background: white;
+  font-weight: bold;
+}
+
+td input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 2px;
+  text-align: center;
+}
+
+.selected {
+  background-color: rgba(0, 123, 255, 0.3);
+  border: 2px solid #82b8f1;
+}
+
+.selected:first-child {
+  border-left: 3px solid #007bff;
+}
+
+.selected:last-child {
+  border-right: 3px solid #007bff;
+}
+
+tr .selected:first-child {
+  border-top: 3px solid #007bff;
+}
+
+tr .selected:last-child {
+  border-bottom: 3px solid #007bff;
+}
+
+td.selected {
+  background: #d3e3fd;
+}
+
+td:focus-within {
+  outline: 2px solid blue;
+}
+
+/* Fixed Bottom Strip */
+.bottom-strip {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  justify-content: flex-end;
+}
+
+
+
+.bottom-strip .dropdown {
+  position: absolute;
+  bottom: 100%; /* Opens upwards */
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 5px 0;
+  right: 0; /* Aligns it to the right corner */
+  display: none; /* Initially hidden */
+  min-width: 150px;
+}
+
+/* Show dropdown on hover */
+.bottom-strip:hover .dropdown {
+  display: block;
+}
+
+/* Dropdown Options */
+.bottom-strip .dropdown div {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Hover effect */
+.bottom-strip .dropdown div:hover {
+  background: #f0f0f0;
+}
+
+.dropdownbox{
+  border: 2px solid #c4eed0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
