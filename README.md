@@ -34,11 +34,11 @@ Data Structures used:
 
 
 Backend setup-
-create .env with mongoURI
-npm i
-node index.js
+1. create .env with mongoURI
+2. npm i
+3. node index.js
 
 Frontend setup-
-Create .env with VITE_API_URL_DEVELOPMENT variable
-npm i
-npm run dev
+1. Create .env with VITE_API_URL_DEVELOPMENT variable
+2. npm i
+3. npm run dev
