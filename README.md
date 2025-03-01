@@ -9,7 +9,7 @@ test Deployed URL- https://kamil2433.github.io/Googlesheets_clone/
 
 backend server Link(render.com)- https://googlesheets-clone.onrender.com  (render.com might shut down server after inactivity)
 
-Features: 
+#Features: 
 1. UI similar to Google Sheets 
 2. Drag functions 
 3. Formula for each cell  (input in bottom bar)
@@ -18,7 +18,7 @@ Features:
 6. Data Quality functions (Trim, uppercase, lowercase, remove duplicate, find & 
 replace)  (in the navbar)
 
-Additional Features: 
+#Additional Features: 
 1. Implemented the Saving features to save & load the spreadsheet in MongoDB  (Save button in the top right corner, when data changes unsaved changes alert appears)
 2. Arrow functions (To change cells using arrow buttons in keyboard ⬆️ ⬇️ ⬅️ ➡️) 
 3. Features to Create new spreadsheets and Open Other spreadsheets (New File and Open file buttons in navbar)
