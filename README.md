@@ -2,7 +2,7 @@
 Clone application of google sheets
 
 test Deployed URL- https://kamil2433.github.io/Googlesheets_clone/
-# (Backend server takes 15-20 seconds to load data due to inactivity)
+**(Backend server takes 15-20 seconds to load data due to inactivity)**
 
 
 <img width="955" alt="Screenshot 2025-02-28 144658" src="https://github.com/user-attachments/assets/c99522c6-3f62-4c24-9dec-2dcd28fac079" />
@@ -14,7 +14,7 @@ backend server Link(render.com)- https://googlesheets-clone.onrender.com  (rende
 2. Drag functions 
 3. Formula for each cell  (input in bottom bar)
 4. Maths functions (dropdown in bottom bar)
-5. Styling features for each cell (bold, italics, font size, color,background color) (toolbar below navbar)
+5. Styling features for each cell (bold, italics, font size, color, background color) (toolbar below navbar)
 6. Data Quality functions (Trim, uppercase, lowercase, remove duplicate, find & 
 replace)  (in the navbar)
 
@@ -24,17 +24,17 @@ replace)  (in the navbar)
 3. Features to Create new spreadsheets and Open Other spreadsheets (New File and Open file buttons in navbar)
 4. Undo and Redo actions (  ↩️ ↪️ button in toolbar below navbar)
 
-How to create new file:
+**How to create new file:**
 Click on the new file button on the navbar, then create new file modal pops out, then enter file name and click the create file button
 
-How to Open file:
+**How to Open file:**
 Click on Open file in the navbar, then the Open file modal pops out, in it click on the open button in front of the file name to open that file.
 
-Performance optimization techniques used:
+**Performance optimization techniques used:**
 1. Used useEffect hooks to effectively display cell values when formulas are used
 2. Used the useRef hooks effectively to manage arrow functions and switch cells quickly
 
-Data Structures used:
+**Data Structures used:**
 1. 2D arrays: to store the data in the spreadsheets
 2. Sets: to keep track of the selected cells and changed cells
 3. Stacks: to keep track of actions for undo and redo feature
