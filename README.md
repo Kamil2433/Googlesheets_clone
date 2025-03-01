@@ -24,6 +24,12 @@ Additional Features:
 3. Features to Create new spreadsheets and Open Other spreadsheets (New File and Open file buttons in navbar)
 4. Undo and Redo actions (  ↩️ ↪️ button in toolbar below navbar)
 
+How to create new file:
+Click on the new file button on the navbar, then create new file modal pops out, then enter file name and click the create file button
+
+How to Open file:
+Click on Open file in the navbar, then the Open file modal pops out, in it click on the open button in front of the file name to open that file.
+
 Performance optimization techniques used:
 1. Used useEffect hooks to effectively display cell values when formulas are used
 2. Used the useRef hooks effectively to manage arrow functions and switch cells quickly
