@@ -34,14 +34,14 @@ Data Structures used:
 
 
 Backend setup-
-cd backend
-1. create .env with mongoURI
-2. npm i
-3. node index.js
+1.cd backend
+2. create .env with mongoURI
+3. npm i
+4. node index.js
 
 Frontend setup-
-cd frontend
-cd zeotapsheets
-1. Create .env with VITE_API_URL_DEVELOPMENT variable
-2. npm i
-3. npm run dev
+1. cd frontend
+2. cd zeotapsheets
+3. Create .env with VITE_API_URL_DEVELOPMENT variable
+4. npm i
+5. npm run dev
